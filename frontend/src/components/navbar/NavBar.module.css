@@ -1,0 +1,43 @@
+.container{
+    width: 20vw;
+    height: 100vh;
+    background-color: #2C444E;
+    z-index: 2;
+}
+
+.container img{
+    margin: 5px 0px 5px 5px;
+}
+
+.name{
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.office{
+    text-align: center;
+    color: #1A2C33;
+}
+
+.iconAndOption{
+    display: flex;
+    align-items: center;
+    color: #AAA5A5;
+    margin: 10px 0px 10px 10px;
+}
+
+.iconAndOption svg{
+    font-size: 1.8rem;
+}
+
+.iconAndOption p{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.title{
+    color: white;
+    margin-left: 5px;
+    
+}
