@@ -1,0 +1,67 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1A2C33;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2C444E;
+    border-radius: 10px;
+}
+
+.subContainer img{
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.subContainer input{
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	color: white;
+	width: 350px;
+    margin: 0px 20px;
+	margin-bottom: 50px;
+	font-size:1.4rem;
+	padding-left: 5px;
+}
+
+.subContainer input:focus{
+    outline: 0;
+	font-weight: 200;
+}
+
+.subContainer input::placeholder{
+    color: white;
+	font-weight: 200;
+	font-size: 1.4rem;
+}
+
+.eyeIcon{
+    color: white;
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+    cursor: pointer;
+}
+
+.enterBtn{
+    display: block;
+    margin: 0 auto;
+    background-color: #1A2C33;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
