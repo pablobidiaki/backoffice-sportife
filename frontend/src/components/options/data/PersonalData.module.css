@@ -1,0 +1,36 @@
+.container h1{
+    margin: 10px;
+    color: white;
+}
+
+.infosContainer{
+    display: grid;
+    grid-template-columns: 250px auto;
+}
+
+.infosContainer div, .emailContainer{
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.infoTitle{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.info{
+    color: #AAA5A5;
+}
+
+.edit{
+    margin-left: 20px;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    background-color: #2C444E;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
