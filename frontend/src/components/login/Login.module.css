@@ -65,3 +65,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+@media (max-width:450px){
+    .subContainer input{
+        width: 250px;
+    }
+}
